@@ -1,0 +1,43 @@
+{
+  "name": "protofree",
+  "version": "0.0.0",
+  "description": "Disable the __proto__ property for better security",
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">=10.13"
+  },
+  "scripts": {
+    "test": "lab -f -t 100 -L",
+    "test-cov-html": "lab -f -r html -o coverage.html"
+  },
+  "keywords": [
+    "javascript",
+    "ecmascript",
+    "__proto__",
+    "security"
+  ],
+  "author": "Gil Pedersen <gpdev@gpost.dk>",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "@hapi/code": "^7.0.0",
+    "@hapi/lab": "^21.0.0"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "files": [
+    "lib/*.js",
+    "apply.js",
+    "deprecate.js",
+    "partial.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanongil/protofree.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kanongil/protofree/issues"
+  },
+  "homepage": "https://github.com/kanongil/protofree#readme"
+}
