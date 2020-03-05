@@ -1,5 +1,7 @@
 # protofree
 
+![Node.js CI](https://github.com/kanongil/protofree/workflows/Node.js%20CI/badge.svg)
+
 **protofree** is a module designed to increase the security of node.js through eliminating usage
 of the `__proto__` object property.
 
