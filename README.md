@@ -60,7 +60,7 @@ To avoid using `__proto__` in your own code, the eslint
 An API is exposed through requiring the main module:
 
 ```js
-const ProtoFree = require('protofree);
+const ProtoFree = require('protofree');
 ```
 
 ### `ProtoFree.apply([options])`
