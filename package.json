@@ -1,6 +1,6 @@
 {
   "name": "protofree",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Disable the __proto__ property for better security",
   "main": "lib/index.js",
   "engines": {
